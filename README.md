@@ -1,3 +1,5 @@
+**ASSIGNMENT DISCRIPTION**
+
 Smart Home Website: Content
 Before you begin, create a new GitHub repo named 'smart-home-content'.
 
