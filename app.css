@@ -1,0 +1,22 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
+
+header > nav{background-color: darkkhaki; padding: 1em; border-radius: 1rem;}
+nav > a {background-color: green;
+    display: inline-block;
+    padding:0.5rem;
+    border-radius: 0.5rem;
+    color: beige;
+    text-decoration: none;
+    /*transition: all ease 500ms;*/
+    transition-duration: 250ms;
+    transition-property: color, background-color;
+    transition-delay: 0ms;
+    transition-timing-function: ease;
+}
+
+nav > a:hover {
+    background-color: greenyellow;
+    color: darkslategray;
+}
