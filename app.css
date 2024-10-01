@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+header {
+    position: sticky;
+    top:0;
+    box-shadow: 0 3px 5px #05050554;
+    z-index: 999;
+    border-radius: 1rem;
+}
+
 header>nav {
     background-color: gainsboro;
     padding: 1em;
@@ -13,34 +21,61 @@ header>nav {
     justify-content: center;
 }
 
-nav>a {
+nav>a { 
     background-color: #A69F95;
     display: inline-block;
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 0 1em;
-    border-radius: 0.5rem;
+    border-radius: 1em;
     color: beige;
     text-decoration: none;
     /*transition: all ease 500ms;*/
     transition-duration: 250ms;
-    transition-property: color, background-color;
     transition-delay: 0ms;
     transition-timing-function: ease;
 }
 
 nav>a:hover {
-    background-color: greenyellow;
-    color: darkslategray;
+    background-color: #BFB3A4;
+    color: #D7D9D7;
 }
-
+.parent{
+    position: relative;
+}
+  .image1 {
+    background-image: url("img/house1.webp");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5em;
+    position: relative;
+    top: 1rem;
+    left: 38rem;
+    width: 50rem;
+  }
+  .image2 {
+    position: absolute;
+    top: 15rem;
+    left: 62.5rem;
+    width: 500px;
+    height: auto;  
+  transform: translate(-50%, -50%);
+    background-color: #F2F2F2;
+    border-radius: 2rem;
+}
 h1 {
-    display: inline-block;
-    background-color: chocolate;
     text-align: center;
 }
 
-
-
+button > a {
+    text-decoration: none;
+    color:black ;
+}
+button{
+    color: #262524;
+}
 /* Cascade Theory */
 
 
@@ -71,13 +106,18 @@ h1 {
     border: dotted 1px black
 }
 
-.bottom-content {
-    background-color: darkkhaki;
+footer {
+    background-color: #D7D9D7;
     padding: 1em;
-    color: beige;
+    color: #050505;
+    text-decoration: none;
 }
 
 .bottom-content>section {
     width: 30%;
     margin: 1em;
+}
+
+.short-abtus {
+margin-left: 40rem;
 }
