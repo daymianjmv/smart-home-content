@@ -111,6 +111,41 @@ footer {
     padding: 1em;
     color: #050505;
     text-decoration: none;
+    
+}
+#sites {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#sites a {
+    text-decoration: none;
+    color: #262524;
+}
+
+#sites :hover {
+    color: #b1835d;
+    transition: all ease 100ms;
+}
+#site {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+#site a {
+    text-decoration: none;
+    color: #262524;
+}
+
+#site :hover {
+    color: #b1835d;
+    transition: all ease 100ms;
 }
 
 .bottom-content>section {
