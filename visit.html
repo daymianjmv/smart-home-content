@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="Visit">
-        
 
-        
+<head id="Visit">
+    <link rel="stylesheet" href="visit.css">
+
+
 </head>
+
 <body id="Visit">
     <header>
         <nav>
-        <a class="ative" href="/index.html">Home</a> |
-        <a class="ative" href="/about.html">About</a> |
-        <a class="active" href="/visit.html">Visit</a> |
-        <a class="active" href="/houses.html">Houses</a>
+            <a class="ative" href="/index.html">Home</a>
+            <a class="ative" href="/about.html">About</a>
+            <a class="active" href="/visit.html">Visit</a>
+            <a class="active" href="/houses.html">Houses</a>
         </nav>
     </header>
-    <h1 style="text-align: center;">Come Vistit Us!</h1>
-    <p style="text-align: center;"> Set an appointment with us here to set up an appointment at one of our locations!</p>
+    <h1>Come Vistit Us!</h1>
+    <p> Set an appointment with us here to set up an appointment at one of our locations!
+    </p>
     <form action="/submit.html">
-    <section><center><artical><input type="text" id="fname" name="fname" placeholder="First Name"> <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
-    <input type="email" id="email" name="email" placeholder="Email"> <input type="text" id="phone" name="phone" placeholder="Phone Number"><input type="text" id="house" name="house" placeholder="House Name">
-    <datalist id="house">
-        <option value="Galactus"></option>
-        <option value="John"></option>
-        <option value="Mice on Venus"></option>
-    </datalist><br>
-    <input type="submit" value="Submit">
-    </artical></center></section>
-        
-        
-    <footer style="background-color: gainsboro;">
-        <h3>Explore The Site!</h3>
-        <ul>
-            <li><a class="active" href="/houses.html"> Houses</a></li>
-            <li> <a class="active" href="/about.html">About</a></li>
-            <li><a class="active" href="/visit.html">Visit</a></li> 
-            <li> <a class="active" href="/index.html">Home</a></li>
-        </ul>
+        <section id="form">
+            <artical>
+                <section id="fname">
+                    <h3>First Name</h3>
+                <input type="text" id="fname" name="fname" placeholder=" ">
+            </section>
+            <section id="lname">
+                <h3>Last Name</h3>
+                <input type="text" id="lname" name="lname" placeholder=" "><br>
+            </section>
+            <section id="email">
+                <h3>Email</h3>
+                <input type="email" id="email" name="email" placeholder=" ">
+            </section>
+            <h3>Phone Number</h3>
+            <section id="phone">
+                <input type="text" id="phone" name="phone" placeholder=" "><br>
+            </section>
+            <section id="vday">
+                <h3>Visit Date</h3>
+                <input type="date" id="house" name="house" placeholder=" "><br>
+            </section>
+            <section id="submit">
+                <input type="submit" class="button" value="Submit">
+            </section>
+            </artical>
+        </section>
 
-    <h3>Follow us</h3>
+
+        <footer>
+            <h3>Explore The Site!</h3>
+            <ul>
+                <li><a class="active" href="/houses.html"> Houses</a></li>
+                <li> <a class="active" href="/about.html">About</a></li>
+                <li><a class="active" href="/visit.html">Visit</a></li>
+                <li> <a class="active" href="/index.html">Home</a></li>
+            </ul>
+
+            <h3>Follow us</h3>
             <ul>
                 <li> <a href="https://www.instagram.com/NoNameHomes" target="_blank">Instagram</a></li>
                 <li><a href="https://www.pinterest.es/NoNameHomes/" target="_blank">Pinterest</a></li>
@@ -46,6 +67,7 @@
                 <li><a href="https://www.youtube.com/@wink3rs" target="_blank">YouTube</a></li>
             </ul>
             <img src="/img/nonamehomes.png" width="100">
-</footer>
+        </footer>
 </body>
+
 </html>

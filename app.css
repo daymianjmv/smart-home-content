@@ -41,7 +41,7 @@ nav>a:hover {
     color: #D7D9D7;
 }
 
-/*---*/
+/*first image*/
 .parent {
     position: relative;
 }
@@ -117,13 +117,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
 }
-footer > section{
+
+footer>section {
     justify-content: space-evenly;
     align-items: center;
 }
-footer > h3 {
-align-self: flex-start;
+
+footer>h3 {
+    align-self: flex-start;
 }
+
 #sites {
     display: flex;
     flex-direction: column;
@@ -171,6 +174,9 @@ align-self: flex-start;
     transition: all ease 100ms;
 }
 
+#logo {
+    width: 13em;
+}
 
 /*----*/
 .bottom-content>section {
@@ -197,6 +203,60 @@ main {
     margin-top: 2em;
 }
 
+.cards article img,
+.card img {
+    border-radius: 1rem 0 0 0;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem 0 1rem;
+    padding: 0.5rem;
+    border: solid 1px darkgrey;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+    padding: 0 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+    border: solid 1px darkgrey;
+    background-color: white;
+    border-radius: 1rem 1rem 1rem;
+}
+
+.thirds article {
+    width: 30%;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
 section {
     display: block;
     unicode-bidi: isolate;
@@ -208,7 +268,7 @@ section {
 
 .cards .button,
 .card .button {
-    border-radius: 1rem 0 1rem;
+    border-radius: 1rem;
 }
 
 .button {
@@ -227,4 +287,16 @@ section {
 .button:hover {
     color: white;
     background: #B4B4B6;
+}
+
+.cards article a,
+.card a {
+    border-radius: 1rem 0 1rem;
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
 }
