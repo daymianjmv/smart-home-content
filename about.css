@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 /*nav*/
 
 header {
@@ -111,81 +110,35 @@ footer>h3 {
 #logo {
     width: 13em;
 }
+/*start*/
 
-/*form*/
-#form{
-    display: flex;
+.parent{
+    position: relative;
+    height: 755px;
 }
-.lname, .fname, .email, .phone{
-display: flex;
-flex-direction: row;
-padding-block: 1em;
-padding-inline: 3em;
-border-radius: 3em;
-justify-content: flex-end;
-}
-.vdate, #vdate{
-    padding-inline: 14.5em;
-    padding-block: 1em;
+
+.img{
+    background-image: url("img/house1tree.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 1rem;
+    left: 38rem;
+    width: 50rem;
     border-radius: 1em;
 }
 
-#name, #contact, #vdate, #submit{
-    display: inline-block;
-}
-#parent {
-    position: relative;
-    height: 1136px;
-    
-}
-
-.img {
-    background-image: url(img/house1-tall.jpg);
-    background-color: #cccccc;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.5em;
-    position: relative;
-    top: 1rem;
-    left: 16em;
-    width: 50rem;
-    display: flex;
-    position: absolute;
-}
-form {
-    background-color: #f3f4f3;
-    display: flex;
-    padding-block: 6em;
-    padding-inline: 3em;
-    box-shadow: 0 6px 5px #05050554;
-    align-items: center;
-    flex-direction: row-reverse;
-    position: absolute;
-    top: 13em;
-    left: 60em;
-    z-index: 5;
-}
-.button {
-    background-color: #6e6e6e;
-    border-radius: 0.7em;
-    font-size: 1rem;
-    color: #D7D9D7;
-    padding: 0.5em 1em;
-    display: inline-block;
-    text-decoration: none;
-    box-shadow: 0 3px 5px #00000054;
-    transition: color ease 200ms, background ease 200ms;
-}
-
-.button:hover {
-    color: white;
-    background: #B4B4B6;
-}
-h1, p{
-    text-align: center;
-}
-
-p{
-    font-size: larger;
+.p, .h2 {
+border: #eeeeee;
+padding: 3em;
+position: absolute;
+top: 15rem;
+left: 62.5rem;
+width: 500px;
+height: auto;
+transform: translate(-50%, -50%);
+background-color: #F2F2F2;
+border-radius: 2rem;
 }
