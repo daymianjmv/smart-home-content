@@ -123,22 +123,118 @@ footer>h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    top: 1rem;
-    left: 38rem;
-    width: 50rem;
+    position: absolute;    
+    left: 33.5rem;
+    width: 60rem;
     border-radius: 1em;
 }
 
-.p, .h2 {
-border: #eeeeee;
-padding: 3em;
-position: absolute;
-top: 15rem;
-left: 62.5rem;
-width: 500px;
-height: auto;
-transform: translate(-50%, -50%);
-background-color: #F2F2F2;
-border-radius: 2rem;
+.p{
+    border: #eeeeee;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    position: absolute;
+    top: 25rem;
+    left: 64rem;
+    width: 550px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #F2F2F2;
+    border-radius: 0 0 2rem 2rem;
 }
+.h2 {
+    border: #eeeeee;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    top: 19rem;
+    left: 64rem;
+    width: 550px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    background-color: #F2F2F2;
+    border-radius: 2rem 2rem;
+}
+
+/*row 1*/
+main {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.cards article img,
+.card img {
+    border-radius: 1rem 0 0 0;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem 0 1rem;
+    padding: 0.5rem;
+    border: solid 1px darkgrey;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.cards article h2,
+.cards article p,
+.card h2,
+.card p {
+    padding: 0 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+    border: solid 1px darkgrey;
+    background-color: rgb(227, 227, 227);
+    border-radius: 1rem 1rem 1rem;
+}
+
+.thirds article {
+    width: 30%;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cards .button,
+.card .button {
+    border-radius: 1rem;
