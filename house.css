@@ -107,59 +107,57 @@ footer>h3 {
 #logo {
     width: 13em;
 }
-/*start*/
 
-.parent{
-    position: relative;
-    height: 755px;
+/*top*/
+
+.top {
+position: relative;
+height: 40em;
 }
-
+.text{
+    text-align: center;
+}
 .img{
-    background-image: url("img/house1tree.jpg");
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;    
-    left: 33.5rem;
-    width: 60rem;
+    position: absolute;
+    width: 50em;
+    height: 30em;
+    left: 37.5em;
+    border-radius: 2em;
+}
+
+/*feature*/
+
+.features {
+    background: #D9D9D9;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
     border-radius: 1em;
+    width: 80em;
 }
 
-.p{
-    border: #eeeeee;
-    padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    position: absolute;
-    top: 25rem;
-    left: 64rem;
-    width: 550px;
-    height: 200px;
-    transform: translate(-50%, -50%);
-    background-color: #F2F2F2;
-    border-radius: 0 0 2rem 2rem;
-}
-.h2 {
-    border: #eeeeee;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: absolute;
-    top: 19rem;
-    left: 64rem;
-    width: 550px;
-    height: 200px;
-    transform: translate(-50%, -50%);
-    background-color: #F2F2F2;
-    border-radius: 2rem 2rem;
+.ft {
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-/*row 1*/
+/* row three tall*/
+.bottom-content>section {
+    width: 30%;
+    margin: 1em;
+}
+
+.short-abtus {
+    margin-left: 40rem;
+}
+
 main {
     display: block;
     unicode-bidi: isolate;
-    height: 40em;
 }
 
 .row {
@@ -168,9 +166,8 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2em;
-    align-items: stretch;
 }
 
 .cards article img,
@@ -186,15 +183,17 @@ img {
     border: solid 1px darkgrey;
 }
 
-h2 {
+h3 {
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 
 .cards article h2,
+.cards article h3,
 .cards article p,
 .card h2,
+.card h3,
 .card p {
     padding: 0 1rem;
 }
@@ -239,21 +238,52 @@ section {
     border-radius: 1rem;
 }
 
-#visit {
-    border: black;
-    background: #e2e2e2e3;
-    text-align: center;
-    display: block;
+.cards article a,
+.card a {
+    border-radius: 1rem 0 1rem;
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+.imgk, .imgp, .imgn{
+height: 324.89px;
+width: 382.39px;
+}
+#row{
+    height: 42em;
+}
+
+/* lounge*/
+.lounge{
     padding: 1em;
-    border-radius: 2em;
-    box-shadow: 0 3px 5px #0000008c;
+    border-radius: 1em;
+    background: #e3e3e3;
+    display: flex;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+}
+.imgl{
+    height: 324.89px;
+    width: 382.39px;
+}
+.l {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1em;
+}
+/*idk*/
+#h2{
+    text-align: center;
+    
 }
 
-.promise{
-font-size: larger;
-
-}
-
-.vision{
-font-size: larger;
+#main{
+    display: flex;
+    unicode-bidi: isolate;
+    justify-content: center;
 }
