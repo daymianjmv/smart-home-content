@@ -72,12 +72,12 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #sites :hover {
-    color: #b1835d;
+    color: silver;
     transition: all ease 100ms;
 }
 
@@ -95,12 +95,12 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #site :hover {
-    color: #b1835d;
+    color: gray;
     transition: all ease 100ms;
 }
 
@@ -112,7 +112,7 @@ footer>h3 {
 
 .top {
 position: relative;
-height: 40em;
+height: 43em;
 }
 .text{
     text-align: center;
@@ -128,7 +128,7 @@ height: 40em;
 /*feature*/
 
 .features {
-    background: #D9D9D9;
+    background: #e3e3e3;
     display: inline-flex;
     flex-wrap: wrap;
     align-content: center;
@@ -137,6 +137,7 @@ height: 40em;
     padding: 1em;
     border-radius: 1em;
     width: 80em;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
 }
 
 .ft {
@@ -172,15 +173,14 @@ main {
 
 .cards article img,
 .card img {
-    border-radius: 1rem 0 0 0;
+    border-radius: 1rem 1rem 1rem 1rem;
     border: none;
 }
 
-img {
+.imgk, .imgn, .imgp {
     max-width: 100%;
-    border-radius: 1rem 0 1rem;
     padding: 0.5rem;
-    border: solid 1px darkgrey;
+    border: solid 1px #a9a9a9;
 }
 
 h3 {
@@ -269,12 +269,21 @@ width: 382.39px;
 .imgl{
     height: 324.89px;
     width: 382.39px;
+    max-width: 100%;
+    padding: 0.5rem;
+    border-radius: 2em;
 }
 .l {
     display: flex;
     align-content: center;
     justify-content: center;
     padding: 1em;
+}
+
+.pl{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
 }
 /*idk*/
 #h2{

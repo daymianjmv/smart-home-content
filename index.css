@@ -142,12 +142,12 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #sites :hover {
-    color: #b1835d;
+    color: silver;
     transition: all ease 100ms;
 }
 
@@ -165,12 +165,12 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #site :hover {
-    color: #b1835d;
+    color: gray;
     transition: all ease 100ms;
 }
 
@@ -178,7 +178,7 @@ footer>h3 {
     width: 13em;
 }
 
-/*----*/
+/*3 row*/
 .bottom-content>section {
     width: 30%;
     margin: 1em;

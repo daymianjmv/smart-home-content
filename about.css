@@ -72,12 +72,12 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #sites :hover {
-    color: #b1835d;
+    color: silver;
     transition: all ease 100ms;
 }
 
@@ -95,18 +95,19 @@ footer>h3 {
     background-color: #A69F95;
     display: inline-block;
     padding: 0.1rem;
-    margin: 0 1em;
+    margin: 0 0.2em;
     border-radius: 0.3em;
 }
 
 #site :hover {
-    color: #b1835d;
+    color: gray;
     transition: all ease 100ms;
 }
 
 #logo {
     width: 13em;
 }
+
 /*start*/
 
 .parent{
@@ -159,7 +160,7 @@ footer>h3 {
 main {
     display: block;
     unicode-bidi: isolate;
-    height: 40em;
+    height: 50em;
 }
 
 .row {
@@ -256,4 +257,24 @@ font-size: larger;
 
 .vision{
 font-size: larger;
+}
+.div {
+    width: 80rem;
+    display: block;
+    position: absolute;
+    left: -29.5em;
+}
+
+.su {
+    width: 90rem;
+    display: flex;
+    left: 3.6rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+}
+.parent{
+    display: flex;
+    height: 80;
+    align-items: space-between;
 }

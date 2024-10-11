@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 /*nav*/
 
 header {
@@ -39,7 +35,6 @@ nav>a:hover {
     background-color: #BFB3A4;
     color: #D7D9D7;
 }
-
 /*feet*/
 footer {
     background-color: #D7D9D7;
@@ -112,80 +107,23 @@ footer>h3 {
     width: 13em;
 }
 
-/*form*/
-#form{
-    display: flex;
-}
-.lname, .fname, .email, .phone{
-display: flex;
-flex-direction: row;
-padding-block: 1em;
-padding-inline: 3em;
-border-radius: 3em;
-justify-content: flex-end;
-}
-.vdate, #vdate{
-    padding-inline: 14.5em;
-    padding-block: 1em;
-    border-radius: 1em;
-}
+/*thanks*/
 
-#name, #contact, #vdate, #submit{
-    display: inline-block;
-}
-#parent {
-    position: relative;
-    height: 1136px;
-    
-}
-
-.img {
-    background-image: url(img/house1-tall.jpg);
-    background-color: #cccccc;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0.5em;
-    position: relative;
-    top: 1rem;
-    left: 16em;
-    width: 50rem;
-    display: flex;
-    position: absolute;
-}
-form {
-    background-color: #f3f4f3;
-    display: flex;
-    padding-block: 6em;
-    padding-inline: 3em;
-    box-shadow: 0 6px 5px #05050554;
-    align-items: center;
-    flex-direction: row-reverse;
-    position: absolute;
-    top: 13em;
-    left: 60em;
-    z-index: 5;
-}
-.button {
-    background-color: #6e6e6e;
-    border-radius: 0.7em;
-    font-size: 1rem;
-    color: #D7D9D7;
-    padding: 0.5em 1em;
-    display: inline-block;
-    text-decoration: none;
-    box-shadow: 0 3px 5px #00000054;
-    transition: color ease 200ms, background ease 200ms;
-}
-
-.button:hover {
-    color: white;
-    background: #B4B4B6;
-}
-h1, p{
+.p, .h1{
     text-align: center;
 }
-
-p{
+.p{
     font-size: larger;
+}
+.div{
+    position: relative;
+    height: 37em;
+}
+.logo{
+    position: absolute;
+    display: flex;
+    left: 35em;
+    width: 53.05em;
+    height: 30.7em;
+    padding: 1em;
 }
