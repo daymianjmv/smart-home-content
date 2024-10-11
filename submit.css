@@ -68,12 +68,12 @@ footer>h3 {
 #sites a {
     text-decoration: none;
     color: #262524;
-    background-color: #A69F95;
-    display: inline-block;
+    display: block;
     padding: 0.1rem;
     margin: 0 0.2em;
     border-radius: 0.3em;
 }
+
 
 #sites :hover {
     color: silver;
@@ -91,12 +91,12 @@ footer>h3 {
 #site a {
     text-decoration: none;
     color: #262524;
-    background-color: #A69F95;
-    display: inline-block;
+    display: block;
     padding: 0.1rem;
     margin: 0 0.2em;
     border-radius: 0.3em;
 }
+
 
 #site :hover {
     color: gray;
