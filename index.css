@@ -44,6 +44,9 @@ nav>a:hover {
 /*first image*/
 .parent {
     position: relative;
+    display: flex;
+    justify-content: center;
+    height:33em;
 }
 
 .image1 {
@@ -56,17 +59,14 @@ nav>a:hover {
     border-radius: 0.5em;
     position: relative;
     top: 1rem;
-    left: 38rem;
     width: 50rem;
 }
 
 .image2 {
     position: absolute;
-    top: 15rem;
-    left: 62.5rem;
+    top: 7.5rem;
     width: 500px;
     height: auto;
-    transform: translate(-50%, -50%);
     background-color: #F2F2F2;
     border-radius: 2rem;
 }
@@ -185,7 +185,8 @@ footer>h3 {
 }
 
 .short-abtus {
-    margin-left: 40rem;
+    display: flex;
+    justify-content: center;
 }
 
 main {
@@ -206,7 +207,7 @@ main {
 
 .cards article img,
 .card img {
-    border-radius: 1rem 0 0 0;
+    border-radius: 1rem;
     border: none;
 }
 

@@ -118,10 +118,10 @@ height: 43em;
     text-align: center;
 }
 .img{
-    position: absolute;
-    width: 50em;
-    height: 30em;
-    left: 37.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
     border-radius: 2em;
 }
 
