@@ -231,6 +231,7 @@ section {
 
 * {
     box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .cards .button,

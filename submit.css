@@ -127,3 +127,8 @@ footer>h3 {
     height: 30.7em;
     padding: 1em;
 }
+
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
